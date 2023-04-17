@@ -61,6 +61,7 @@ The folder with templates and examples of connecting templates for displaying im
 
 В случае, если нужна персональная поддержка по правке и подключению шаблонов на сдельной основе - <a href="https://t.me/webitproff">мой телеграм</a> 
 
+
 [вопросы на форуме.](https://www.cotonti.com/ru/forums?m=posts&q=7715&n=last#bottom)
 
 
