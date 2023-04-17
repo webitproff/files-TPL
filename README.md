@@ -2,7 +2,10 @@
 The folder with templates and examples of connecting templates for displaying images and files on the front end of the site.
 ## папка с шаблонами и примерами подключения шаблонов для вывода изображений и файлов на фронтэнде сайта.
 ===
+## Danger~! <span style="color: #ea0b0b;">Не перезаписывайте этими файлами, файлы шаблонов своей темы! здесь только конструкции - скопировал, вставил, всё!</span>
+===
 ### Каждая подключаемая конструкция должна находится внутри функции проверки, установлени ли и запущен наш модуль "Files" 
+
 ```
 <!-- IF {PHP|cot_module_active('files')} -->
 Здесь теги подключения конструкций "Files" и HTML-код соответствующих шаблонов 
@@ -57,5 +60,6 @@ The folder with templates and examples of connecting templates for displaying im
 Если что-то не получается, задавайте <a href="https://www.cotonti.com/ru/forums?m=posts&q=7715&n=last#bottom">вопросы на форуме.</a>
 
 В случае, если нужна персональная поддержка по правке и подключению шаблонов на сдельной основе - <a href="https://t.me/webitproff">мой телеграм</a> 
+[sabaka.net](http://sabaka.net)
 
 
