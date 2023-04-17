@@ -2,7 +2,7 @@
 The folder with templates and examples of connecting templates for displaying images and files on the front end of the site.
 ## папка с шаблонами и примерами подключения шаблонов для вывода изображений и файлов на фронтэнде сайта.
 ===
-## :no_entry: <span style="color: #ea0b0b;">Не перезаписывайте этими файлами, файлы шаблонов своей темы! здесь только конструкции - скопировал, вставил, всё!</span>
+#### :no_entry: <span style="color: #ea0b0b;">Не перезаписывайте этими файлами, файлы шаблонов своей темы! здесь только конструкции - скопировал, вставил, всё!</span>
 ===
 ### Каждая подключаемая конструкция должна находится внутри функции проверки, установлени ли и запущен наш модуль "Files" 
 
@@ -24,7 +24,7 @@ The folder with templates and examples of connecting templates for displaying im
 ```
 
 где "files.gallery.pagefull" - это наш шаблон слайдера, который находится по адресу
-## themes/Your_Skin_Cotonti*/modules/files/files.gallery.pagefull.tpl ##
+#### themes/Your_Skin_Cotonti*/modules/files/files.gallery.pagefull.tpl
 *Your_Skin_Cotonti - название скина вашей темы (скина) Cotonti
 
 И так, из условий выше, если модуль находится в активном состоянии и к конкретно этой странице прикреплено изображений больше нуля то конструкция №1 подключит наш шаблон слайдера "files.gallery.pagefull.tpl", который у меня к примеру имеет HTML-разметку вида:
@@ -59,7 +59,7 @@ The folder with templates and examples of connecting templates for displaying im
 
 Если что-то не получается, задавайте [вопросы на форуме.](https://www.cotonti.com/ru/forums?m=posts&q=7715&n=last#bottom)
 
-В случае, если нужна персональная поддержка по правке и подключению шаблонов на сдельной основе - [мой телеграм](https://t.me/webitproff)
+### В случае, если нужна персональная поддержка по правке и подключению шаблонов на сдельной основе - [мой телеграм](https://t.me/webitproff)
 
 
 
