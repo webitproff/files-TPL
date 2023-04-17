@@ -4,6 +4,8 @@ The folder with templates and examples of connecting templates for displaying im
 ===
 #### :no_entry: <span style="color: #ea0b0b;">Не перезаписывайте этими файлами, файлы шаблонов своей темы! здесь только конструкции - скопировал, вставил, всё!</span>
 ===
+## Инструкция по установке модуля «Files» [здесь!](https://github.com/webitproff/files-TPL/blob/2dc8c8a59dfd018a5c0ee540c5a86985382d9488/manual-cot-module-files-installation.md)
+===
 ### Каждая подключаемая конструкция должна находится внутри функции проверки, установлени ли и запущен наш модуль "Files" 
 
 ```
