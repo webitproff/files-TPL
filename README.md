@@ -57,6 +57,92 @@ The folder with templates and examples of connecting templates for displaying im
 У вас она может быть по вашим нуждам, какой угодно. 
 Если например у вас Bootstrap 5.3, - по аналогии, используя HTML-разметку,  вы можете сделать слайдер взяв за пример <a href="https://www.cotonti.com/ru/docs/help/slider-for-cotonti">мою статью </a> 
 
+В шаблонах панели управления «admin.users.tpl» и «admin.users.tpl» а также в некоторых других создайте теги в соотвествии с рекомендациями на настранице модуля в панели управления по ссылке https://Your_Project.com/admin.php?m=extensions&a=details&mod=files
+######* Your_Project.com - заменить на домен вашего сайта
+
+##### admin.users.add.tags 	
+system/admin/tpl/admin.users.tpl :
+```
+{ADMIN_USERS_NGRP_PFS_MAXFILE}
+{ADMIN_USERS_NGRP_PFS_MAXTOTAL}
+{ADMIN_USERS_NGRP_ATTACH_PER_POST}
+```
+##### admin.users.edit.tags 	
+system/admin/tpl/admin.users.tpl :
+```
+{ADMIN_USERS_EDITFORM_GRP_PFS_MAXFILE}
+{ADMIN_USERS_EDITFORM_GRP_PFS_MAXTOTAL}
+{ADMIN_USERS_EDITFORM_GRP_ATTACH_PER_POST}
+```
+##### comments.tags 	
+plugins/comments/tpl/comments.tpl :
+```
+{COMMENTS_FORM_PFS}
+{COMMENTS_FORM_SFS}
+```
+##### forums.tags 	
+themes/Your_Skin_Cotonti/modules/forums/forums.editpost.tpl :
+```
+{FORUMS_EDITPOST_PFS}
+{FORUMS_EDITPOST_SFS}
+```
+##### forums.tags 	
+themes/Your_Skin_Cotonti/modules/forums/forums.editpost.tpl :
+```
+{FORUMS_POSTS_NEWPOST_PFS}
+{FORUMS_POSTS_NEWPOST_SFS}
+```
+##### forums.tags 	
+themes/Your_Skin_Cotonti/modules/forums/forums.newtopic.tpl :
+```
+{FORUMS_NEWTOPIC_PFS}
+{FORUMS_NEWTOPIC_SFS}
+```
+##### header 	
+themes/Your_Skin_Cotonti/header.tpl :
+```
+{HEADER_USER_PFS}
+{HEADER_USER_PFS_URL}
+```
+##### page.tags 	
+themes/Your_Skin_Cotonti/modules/page/page.add.tpl :
+```
+{PAGEADD_FORM_PFS}
+{PAGEADD_FORM_SFS}
+{PAGEADD_FORM_URL_PFS}
+{PAGEADD_FORM_URL_SFS}
+```
+##### page.tags 	
+themes/Your_Skin_Cotonti/modules/page/page.edit.tpl :
+```
+{PAGEEDIT_FORM_PFS}
+{PAGEEDIT_FORM_SFS}
+{PAGEEDIT_FORM_URL_PFS}
+{PAGEEDIT_FORM_URL_SFS}
+```
+##### pm.tags 	
+themes/Your_Skin_Cotonti/modules/pm/pm.message.tpl :
+```
+{PM_FORM_PFS}
+{PM_FORM_SFS}
+```
+##### pm.tags 	
+themes/Your_Skin_Cotonti/modules/pm/pm.send.tpl :
+```
+{PMSEND_FORM_PFS}
+{PMSEND_FORM_SFS}
+```
+##### users.edit_profile.tags 	
+themes/Your_Skin_Cotonti/modules/users/users.profile.tpl :
+```
+{USERS_PROFILE_AVATAR}
+```
+##### users.edit_profile.tags 	
+themes/Your_Skin_Cotonti/modules/users/users.edit.tpl :
+```
+{USERS_EDIT_AVATAR}
+```
+
 Если что-то не получается, задавайте [вопросы на форуме.](https://www.cotonti.com/ru/forums?m=posts&q=7715&n=last#bottom)
 
 ### :eyes: :interrobang: 
