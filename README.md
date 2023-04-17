@@ -57,11 +57,11 @@ The folder with templates and examples of connecting templates for displaying im
 У вас она может быть по вашим нуждам, какой угодно. 
 Если например у вас Bootstrap 5.3, - по аналогии, используя HTML-разметку,  вы можете сделать слайдер взяв за пример <a href="https://www.cotonti.com/ru/docs/help/slider-for-cotonti">мою статью </a> 
 
-Если что-то не получается, задавайте <a href="https://www.cotonti.com/ru/forums?m=posts&q=7715&n=last#bottom">вопросы на форуме.</a>
+Если что-то не получается, задавайте [вопросы на форуме.](https://www.cotonti.com/ru/forums?m=posts&q=7715&n=last#bottom)
 
-В случае, если нужна персональная поддержка по правке и подключению шаблонов на сдельной основе - <a href="https://t.me/webitproff">мой телеграм</a> 
+В случае, если нужна персональная поддержка по правке и подключению шаблонов на сдельной основе - [мой телеграм](https://t.me/webitproff)
 
 
-[вопросы на форуме.](https://www.cotonti.com/ru/forums?m=posts&q=7715&n=last#bottom)
+
 
 
