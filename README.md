@@ -76,6 +76,9 @@ system/admin/tpl/admin.users.tpl :
 {ADMIN_USERS_EDITFORM_GRP_PFS_MAXTOTAL}
 {ADMIN_USERS_EDITFORM_GRP_ATTACH_PER_POST}
 ```
+готовый пример для [admin.users.tpl] (https://github.com/webitproff/files-TPL/blob/ba3d866873cce24be9aff8e622dac8f86eb348ac/themes/admin/Your_Skin_Control_Panel_Cotonti/admin.users.tpl)
+лучше всего установить себе уже [готовый шаблон панели управления сайтом на Cotonti](https://www.cotonti.com/ru/themes/admin-panel/) и уже там в `*admin.users.tpl*` внести нужные правки.
+
 ##### comments.tags 	
 plugins/comments/tpl/comments.tpl :
 ```
