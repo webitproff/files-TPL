@@ -13,14 +13,6 @@
                             <div class="uk-width-1-1 uk-width-expand@s ">
                               <div class="uk-comment-meta-top">
                                 <p class=" uk-margin-remove uk-text-center uk-text-left@s uk-text-dark uk-text-bold">{PHP.row.pm_title}
-                                  <!-- IF {PHP|cot_module_active('files')} -->
-                                  <!-- IF {PM_ROW_ID|cot_files_count('pm', $this, '', '')} > 0 -->
-                                <div uk-tooltip="Всего прикрепленно файлов / из них картинок / другие файлы">
-                                  <span class="uk-margin-small-left uk-icon uk-text-warning" uk-icon="icon: image; ratio: 1.2"></span>
-                                  <span class="uk-text-bold uk-link-text uk-margin-small-left uk-text-middle">{PM_ROW_ID|cot_files_count('pm',$this)}/{PM_ROW_ID|cot_files_count('pm',$this,'','images')}/{PM_ROW_ID|cot_files_count('pm',$this,'','files')}</span>
-                                </div>
-                                <!-- ENDIF -->
-                                <!-- ENDIF -->
                                 </p>
                                 <p class=" uk-text-center uk-text-left@s uk-text-dark">{PM_ROW_DESC|strip_tags($this)|cot_string_truncate($this,76)} ...</p>
                               </div>
