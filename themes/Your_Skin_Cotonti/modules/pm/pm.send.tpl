@@ -1,5 +1,4 @@
 				<!-- IF {PHP|cot_module_active('files')} -->
-				{PHP|cot_files_filebox('pm', 0)}
 						<div class="uk-margin">
 							<label class="uk-form-label">PFS</label>
 							<div class="uk-form-controls">
